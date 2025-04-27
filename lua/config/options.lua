@@ -3,4 +3,4 @@
 -- Add any additional options here
 vim.opt.nu = true
 vim.opt.relativenumber = true
-vim.opt.statuscolumn = "%s %l %=%{v:relnum ? v:relnum : ''} "
+vim.opt.statuscolumn = "%s %=%{v:lnum} %=%{v:relnum ? v:relnum : ''} "
